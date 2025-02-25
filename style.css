@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    margin: 0 20%;
+}
+header{
+    display: flex;
+    background-color:rgb(199, 198, 198)
+}
+.cuerpo{
+    display:flex
+}
+.educacion {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.educacion-item {
+    display: flex;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.educacion-item::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #007bff;
+}
+
+.año {
+    font-weight: bold;
+    color: #007bff;
+    margin-right: 20px;
+    min-width: 100px;
+}
+
+.contenido {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 4px solid #007bff;
+}

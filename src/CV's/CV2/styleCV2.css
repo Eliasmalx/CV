@@ -1,0 +1,62 @@
+body {
+    height: 100vh;
+    margin: 0 20%;
+}
+.central{
+    display: flex;
+   
+
+}
+.parte-izquierda{
+    padding-right: 10px;
+}
+.parte-derecha{
+    background-color:gainsboro;
+    padding: 0 5px;
+}
+
+.encabezado{
+    background-color: rgb(61, 190, 255);
+    color: white;
+    padding: 1px 10px;
+}
+.titulos-centrales{
+    color: rgb(61, 190, 255) ;
+    border-bottom:4px solid rgb(61, 190, 255) 
+}
+.skill1{
+     width: 100%;
+     
+}
+.skill15{
+    background-color: rgb(61, 190, 255);
+    width: 90%;
+    color: rgb(61, 190, 255);
+    border-radius: 0 16px 16px 0;
+    padding: -1;
+}
+
+.skill55{
+    background-color: rgb(61, 190, 255);
+    width: 40%;
+    color: rgb(61, 190, 255);
+    border-radius: 0 16px 16px 0;
+    padding: -1;
+}
+
+.Skills {
+    display: block;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+.titulo-trabajo{
+    margin-top: -18px;
+
+  }
+
+.iconos i{
+    color: rgb(61, 190, 255);
+
+}
