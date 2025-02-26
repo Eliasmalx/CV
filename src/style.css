@@ -25,20 +25,59 @@ header{
     width: 50%;
 }
 .cuerpoDer h1{
-    margin-block-end: 0;
+    margin-block-end: 1px;
 }
 .habilidades{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 .habilidad{
     color: white;
     background-color: #007bff;
     border-radius: 5px;
     padding: 0 10px;
-    margin-block-end: 0;
+    margin: 3px;
+}
+.lugares{
+    display: flex;
+    justify-content: space-between;
+    color: #007bff;
+    margin-top: -23px;
+    
+}
+.educacion-item{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+.año{
+    padding-right: 15px;
+    font-weight: bold;
+    color: #555;
+    min-width: 50px; 
+    text-align: center;
+}
+.año p{
+    line-height: 0.2;
 }
 
+.contenido{
+    padding-left: 10px;
+    border: 10px;
+    border-left: 3px inset;
+}
+/* .contenido ::before {
+    content: "●"; 
+    position: absolute;
+    left: 60px; 
+    top: 23px;
+    color: black;
+    font-size: 12px;
+} */
+ .elpunto{
+    font-size: 12px;
+    
+ }
 footer{
     display: flex;
     justify-content: space-between;
